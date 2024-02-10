@@ -1,6 +1,6 @@
 ---
 title: Teleporting
-date: 2024-02-11
+date: 2024-02-10
 ---
 A while ago, when I implemented teleportation in my game, I saw something strange happening. The further away the destination was, the longer it took to perform the teleportation. At some point, it took like 1-2 seconds on my (rather performant) desktop PC.
 
