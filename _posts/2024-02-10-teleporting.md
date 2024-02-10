@@ -20,9 +20,21 @@ CollisionLayer = 0;
 CollisionMask = 0;
 
 // Teleport somewhere far away.
-nodeToTeleport.Position += new Vector2(1000, 2000);
+Position += new Vector2(1000, 2000);
 
 // Restore the colission bits.
 CollisionLayer = originalCollisionLayer;
 CollisionMask = originalCollisionMask;
+```
+
+The code above is written to be placed inside the script of the node you're teleporting (e.g. inside `_PhysicsProcess`). Otherwise, if you're referencing a specific node, you might want to reference the properties like this:
+
+```csharp
+var originalCollisionLayer = player.CollisionLayer;
+var originalCollisionMask = player.CollisionMask;
+
+player.CollisionLayer = 0;
+player.CollisionMask = 0;
+
+// etc.
 ```
