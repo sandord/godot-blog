@@ -27,14 +27,3 @@ CollisionLayer = originalCollisionLayer;
 CollisionMask = originalCollisionMask;
 ```
 
-The code above is written to be placed inside the script of the node you're teleporting (e.g. inside `_PhysicsProcess`). Otherwise, if you're referencing a specific node, you might want to reference the properties like this:
-
-```csharp
-var originalCollisionLayer = player.CollisionLayer;
-var originalCollisionMask = player.CollisionMask;
-
-player.CollisionLayer = 0;
-player.CollisionMask = 0;
-
-// etc.
-```
