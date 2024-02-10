@@ -2,4 +2,4 @@
 title: Welcome to my blog
 ---
 
-Hi!
+This is my blog about developing 2D pixel art games using Godot 4 and C#.
