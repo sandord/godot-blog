@@ -6,4 +6,4 @@ I've been working on my 2D pixel art platformer game for about 10 months now and
 
 Here's a screenshot to give you an impression:
 
-![Screenshot](../assets/img/posts/2024-02-09-introduction/screenshot.jpg)
+![Screenshot](2024-02-09-introduction/screenshot.jpg)
