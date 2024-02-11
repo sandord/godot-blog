@@ -15,8 +15,7 @@ Here's some code that shows how to easily teleport a node without causing interm
 var originalCollisionLayer = CollisionLayer;
 var originalCollisionMask = CollisionMask;
 
-// Clear the colission bits to disable colission detection
-// for the node.
+// Clear the colission bits to disable colission detection for the node.
 CollisionLayer = 0;
 CollisionMask = 0;
 
